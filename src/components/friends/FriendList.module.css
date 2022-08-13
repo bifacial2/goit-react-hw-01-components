@@ -1,0 +1,28 @@
+.friend_list {
+  /* margin: 0 auto; */
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.item {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.item:not(:last-child) {
+  margin-right: 10px;
+}
+.status {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  margin-right: 10px;
+  /* background: orange; */
+}
+.name {
+  margin-left: 10px;
+}

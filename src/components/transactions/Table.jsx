@@ -1,6 +1,7 @@
+import css from './Table.module.css';
 export const Table = ({ data }) => {
   return (
-    <table className="transaction-history">
+    <table className={css.transaction_history}>
       <thead>
         <tr>
           <th>Type</th>
